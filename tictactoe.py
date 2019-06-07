@@ -1,19 +1,6 @@
 import random
 
 
-# Wat moet ik doen?
-
-# 1 het bord weergeven
-# 2 Speler char vragen
-# 3 Eerste speler kiezen
-# 4 marker plaatsen (de locatie)
-# 5 kijken of iemand heeft gewonnen
-# 6 kijken of het bord leeg is
-# 7 kijken of plaats vrij is
-# 8 Kijken of bord vol is
-# 9 replay function
-
-
 def display_board(board):
     print('\n'*20)
     print(' ' + board[7] + ' ' + '|' + ' ' + board[8] + ' ' + '|'  + ' ' + board[9] + ' ')
